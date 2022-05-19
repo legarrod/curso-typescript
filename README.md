@@ -5,6 +5,7 @@ https://www.npmjs.com/package/axios
 https://reactrouter.com/docs/en/v6/getting-started/overview
 https://tailwindcss.com/docs/flex-direction
 https://github.com/tonsky/FiraCode
+https://github.com/pmndrs/zustand
 
 Extensiones visual:
 Tailwind CSS IntelliSense

@@ -5,7 +5,9 @@ function Layout({children}: any) {
   return (
     <div>
         <Navbar/>
-        {children}
+        <div className='pt-16 px-10'>
+          {children}
+        </div>
     </div>
   )
 }
