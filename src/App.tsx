@@ -1,20 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {ModuleHome, ModuleContact} from "pages"
-import Layout from "components/Layout/Layout"
+import LayoutCustom from "components/Layout/Layout"
 
-function App() {
+const App: React.FC =()=> {
 
   return (
     <Router>
         <Routes>
       <Route
         path="/"
-        element={<Layout><ModuleHome/></Layout> }
+        element={<LayoutCustom><ModuleHome/></LayoutCustom>}
       />
       <Route
         path="/contact"
-        element={<Layout><ModuleContact/></Layout>}
+        element={<LayoutCustom><ModuleContact/></LayoutCustom>}
       />
     </Routes>
     </Router>
