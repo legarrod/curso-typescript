@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {ModuleHome, ModuleContact} from "pages"
+import {ModuleHome, ModuleRenderProps, ModuleRick} from "pages"
 import LayoutCustom from "components/Layout/Layout"
 
 const App: React.FC =()=> {
@@ -13,8 +13,12 @@ const App: React.FC =()=> {
         element={<LayoutCustom><ModuleHome/></LayoutCustom>}
       />
       <Route
-        path="/contact"
-        element={<LayoutCustom><ModuleContact/></LayoutCustom>}
+        path="/rick"
+        element={<LayoutCustom><ModuleRick/></LayoutCustom>}
+      />
+       <Route
+        path="/render"
+        element={<LayoutCustom><ModuleRenderProps/></LayoutCustom>}
       />
     </Routes>
     </Router>

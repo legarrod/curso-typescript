@@ -21,7 +21,12 @@ const SidebarCustom: React.FC = () => {
         <Menu.Item key="2">
           <HistoryOutlined />
           <span>ApiRest</span>
-          <Link to="/contact" />
+          <Link to="/rick" />
+        </Menu.Item>
+        <Menu.Item key="3">
+          <HistoryOutlined />
+          <span>Render Props</span>
+          <Link to="/render" />
         </Menu.Item>
       </Menu>
     </Sider>

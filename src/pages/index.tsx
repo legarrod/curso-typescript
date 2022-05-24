@@ -1,2 +1,3 @@
 export {default as ModuleHome} from "../modules/ModuleHome/Home";
-export {default as ModuleContact} from "../modules/ModuleContact/Contact"
+export {default as ModuleRenderProps} from "../modules/ModuleRender/RenderProps"
+export {default as ModuleRick} from "../modules/ModuleRick/RickIndex"
