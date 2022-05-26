@@ -8,6 +8,7 @@ https://github.com/tonsky/FiraCode
 https://github.com/pmndrs/zustand
 https://rickandmortyapi.com/documentation
 https://www.apollographql.com/docs/react/
+https://testing-library.com/docs/react-testing-library/intro/
 
 Extensiones visual:
 Tailwind CSS IntelliSense

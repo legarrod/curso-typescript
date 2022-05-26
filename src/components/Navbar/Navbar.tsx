@@ -28,6 +28,11 @@ const SidebarCustom: React.FC = () => {
           <span>Render Props</span>
           <Link to="/render" />
         </Menu.Item>
+        <Menu.Item key="4">
+          <HistoryOutlined />
+          <span>Todos</span>
+          <Link to="/todo" />
+        </Menu.Item>
       </Menu>
     </Sider>
   );

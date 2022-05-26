@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {ModuleHome, ModuleRenderProps, ModuleRick} from "pages"
+import {ModuleHome, ModuleRenderProps, ModuleRick, ModuleTodo} from "pages"
 import LayoutCustom from "components/Layout/Layout"
 
 const App: React.FC =()=> {
@@ -19,6 +19,10 @@ const App: React.FC =()=> {
        <Route
         path="/render"
         element={<LayoutCustom><ModuleRenderProps/></LayoutCustom>}
+      />
+       <Route
+        path="/todo"
+        element={<LayoutCustom><ModuleTodo/></LayoutCustom>}
       />
     </Routes>
     </Router>

@@ -33,15 +33,15 @@ const MessageError= ()=>{
 
 function RenderProps() {
 
-const fnNoData = ()=>{
-  "Mucha logica"
-}
-const fnErrorname = ()=>{
-"Mas logica"
-}
-const fnSucces=()=>{
-"La logica de succes"
-}
+  const fnNoData = ()=>{
+    "Mucha logica"
+  }
+  const fnErrorname = ()=>{
+  "Mas logica"
+  }
+  const fnSucces=()=>{
+  "La logica de succes"
+  }
 
   const responseLLibrary: any = {
     NOTA_DATA: ()=>fnNoData(),
